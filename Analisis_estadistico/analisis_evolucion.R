@@ -1,17 +1,5 @@
 # =============================================================================
 # Análisis de las comunidades evolutivas (apartado 3.2 del manuscrito)
-#
-# Entradas: results_final.csv  abundancia media, riesgo de extinción y tiempo de
-#                              gestación de cada especie en las 10 comunidades
-#                              ancestrales (evo_id = 0) y en las 10 réplicas
-#                              evolutivas de cada una (evo_id = 1-10)
-#           network_50.csv     universo de interacciones (72 x 72)
-# Salidas : cifras del apartado 3.2 en consola y en resultados_evolucion.txt
-#           Tablas 2 y 3 y Tabla suplementaria S1 en formato CSV
-#           topologia_redes.csv y modelos_nulos_*.csv (los usa figuras_manuscrito.R)
-#
-# Ejecutar desde la carpeta raíz del repositorio:  Rscript analisis_evolucion.R
-# Los modelos nulos (300 redes por red observada) tardan unos 10 minutos.
 # =============================================================================
 
 suppressPackageStartupMessages({
