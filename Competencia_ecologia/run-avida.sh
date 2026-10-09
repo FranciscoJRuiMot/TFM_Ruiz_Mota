@@ -1,0 +1,24 @@
+#!/bin/bash
+
+./avida \
+    -set RANDOM_SEED 1 \
+    -set WORLD_X 110 \
+    -set WORLD_Y 110 \
+    -set VERBOSITY 0 \
+    -set COPY_MUT_PROB 0 \
+    -set DIVIDE_INS_PROB 0 \
+    -set DIVIDE_DEL_PROB 0 \
+    -set OFFSPRING_SIZE_RANGE 1 \
+    -set MIN_COPIED_LINES 0 \
+    -set MIN_EXE_LINES 0 \
+    -set REQUIRE_EXACT_COPY 1 \
+    -set STERILIZE_UNSTABLE 1 \
+    -set BIRTH_METHOD 4 \
+    -set DEATH_METHOD 1 \
+    -set AGE_LIMIT 3000 \
+    -set RELEASE_TAKEN_RESOURCES_WASHOUT 1 \
+    -set BASE_MERIT_METHOD 0 \
+    -set BASE_CONST_MERIT 30 \
+    -set REQUIRE_SINGLE_REACTION 2 \
+    -set REQUIRED_REACTIONS 100010000100010001000010000010000001000001000010000000 \
+    -set DIVIDE_RESET 2 > /dev/null 2>&1
