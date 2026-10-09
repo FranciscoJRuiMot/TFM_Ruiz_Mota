@@ -1,13 +1,5 @@
 # =============================================================================
 # Análisis de las comunidades ecológicas (apartado 3.1 del manuscrito)
-#
-# Entrada : results_1000_with_and_without.csv
-#           1.000 redes de 10 especies simuladas sin y con competencia por
-#           recursos (fusión de los recursos de dos especies).
-# Salida  : cifras del apartado 3.1 en consola y en resultados_ecologia.txt
-#           Tabla 1 y Tabla suplementaria S2 en formato CSV
-#
-# Ejecutar desde la carpeta raíz del repositorio:  Rscript analisis_ecologia.R
 # =============================================================================
 
 suppressPackageStartupMessages({
